@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .outer{
+      background-color:blue;
+      height:300px;  width:300px;
+      line-height:300px;
+    }
+    .inner{
+      background-color:green;
+      display:inline-block;
+      vertical-align:middle;
+      height:150px;width:150px;
+    }
+    .parent{
+      box-sizing:border-box;
+      width:300px;
+      height:50px;
+      background-color:green;
+    }
+    .children{
+      box-sizing:border-box;
+      width:100%;margin-left:30px;margin-right:20px;
+      height:30px;background-color:blue;
+    }
+    .parent1{
+      /*box-sizing:border-box;*/
+      border:1px solid green;
+      padding:20px;
+      width:300px;height:300px;
+    }
+    .children1{
+      /*box-sizing:border-box;*/
+      padding:20px;
+      width:100%;
+      width:auto;
+      background-color:blue;
+      height:100px;
+    }
+    .parent2{
+      box-sizing:border-box;
+      border:10px dotted green;
+      /*padding:20px;*/
+      width:300px;height:300px;
+    }
+    .children2{
+      box-sizing:border-box;
+      width:100%;
+      background-color:blue;
+      height:100px;
+    }
+  </style>
+</head>
+<body>
+  <div class='outer'>
+    <div class="inner"></div>
+  </div>
+  <hr/>
+  <h3>width100%加上margin的情况</h3>
+  <div class="parent">
+    <div class="children"></div>
+  </div>
+  <hr/>
+<div class="parent1">
+  <div class="children1"></div>
+</div>
+  <div class="parent2">
+    <div class="children2"></div>
+  </div>
+</body>
+</html>

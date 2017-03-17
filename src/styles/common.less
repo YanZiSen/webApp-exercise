@@ -1,0 +1,86 @@
+@font-size:14px;
+@main-color:#333;
+*,::after,::before{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  -webkit-tap-highlight-color:transparent;
+}
+html{
+  font-size:14px;
+}
+body{
+  font-family:'Microsoft YaHei',"sans-serif";
+  font-size:@font-size;
+}
+ul,ol{
+  list-style-type:none;
+}
+a{
+  color:@main-color;
+  text-decoration:none;
+}
+.color-vary(@color,@color-bg,@color-border){
+
+}
+input,textarea{
+  outline:none;
+  border:none;
+  resize:none;
+  -webkit-appearance:none;//去掉浏览器下的默认外观
+}
+.clearfix:before,.clearfix:after{
+  content:'';
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+[class^=icon]{
+  background-image:url('../imgs/sprites.png');
+  background-size:200px 200px;
+}
+.title{
+  position:absolute;
+  width:100%;
+  height:40px;
+  border-bottom:1px solid #ccc;
+  background-image:linear-gradient(to top,#eee,#fff);
+  z-index:1000;
+}
+.title .icon-menu{
+  position:absolute;
+  top:0;right:0;
+  width:20px;height:20px;
+  margin:10px;
+  background-position:-60px 0;
+}
+.title .icon-back{
+  position:absolute;
+  left:0;top:0;
+  width:40px;height:40px;
+  padding:10px;
+  background-origin:content-box;
+  background-clip:content-box;
+  background-position:-20px 0;
+}
+.title form{
+  font-size:5px;
+  margin-left:40px;
+  line-height:40px;
+  margin-right:40px;
+}
+.title h2{
+  text-align:center;
+  width:100%;
+  font-size:16px;
+  font-family:sans-serif;
+  line-height:40px;
+}
+.title input{
+  border:1px solid #cfcfcf;
+  border-radius:5px;
+  vertical-align:middle;
+  height:30px;
+  width:100%;
+}

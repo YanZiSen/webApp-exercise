@@ -1,0 +1,231 @@
+body {
+  position: relative;
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+/*����ͷ�� ������*/
+.fixed-top-contain {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.header {
+  position: relative;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(120, 120, 120, 0.1);
+}
+.header .left-brand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+}
+.left-brand .icon-brand {
+  display: inline-block;
+  vertical-align: middle;
+  width: 56px;
+  height: 20px;
+  background-position: 0 -110px;
+}
+.header .right-brand {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 15px;
+  height: 40px;
+  line-height: 40px;
+  color: #eee;
+}
+.header .search-form {
+  position: relative;
+  top: 5px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  background-color: #eee;
+  margin-right: 58px;
+  margin-left: 86px;
+}
+.header .search-form .icon-search {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  background-position: -56px -110px;
+}
+.header .search-form input {
+  background-color: transparent;
+  vertical-align: middle;
+  overflow: hidden;
+}
+/*�ֲ�ͼ����*/
+.slider {
+  overflow: hidden;
+}
+.slider-box {
+  width: 800%;
+}
+.slider .slider-box li {
+  float: left;
+  width: 12.5%;
+}
+.slider .slider-box li img {
+  width: 100%;
+}
+/*��Ʒ�б�*/
+.goods {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.goods .goods-item {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.goods .goods-item a {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+.goods .goods-item h2 {
+  font-weight: normal;
+}
+.goods .goods-item img {
+  width: 58px;
+  height: 58px;
+}
+@media screen and (min-width: 414px) {
+  .goods .goods-item img {
+    width: 66px;
+    height: 66px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .goods .goods-item img {
+    width: 80px;
+    height: 80px;
+  }
+}
+/*�󲿷���Ʒ�б�*/
+/*��������*/
+.main-goods-box section {
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 1px #ccc;
+  background-color: #fff;
+}
+.main-goods-box section header {
+  height: 32px;
+}
+.goods-title:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  background-color: #e4393c;
+  height: 25px;
+  width: 4px;
+  border-radius: 2px;
+}
+.goods-title {
+  height: 25px;
+  font-weight: normal;
+}
+/*��ɱ*/
+.quick-kill-title {
+  float: left;
+  line-height: 32px;
+  font-weight: normal;
+  color: #e4393c;
+}
+.quick-kill-title .time {
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  margin: 0 2px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: #eee;
+  background-color: #333;
+}
+.quick-kill-title .icon-clock {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-position: -158px -73px;
+}
+.quick-kill-more {
+  float: right;
+  line-height: 32px;
+  padding-right: 5px;
+}
+.quick-kill-content li {
+  float: left;
+  width: 33.333%;
+  font-size: 20px;
+  text-align: center;
+}
+.quick-kill-content li .img-box {
+  width: 100%;
+  padding: 10px 0;
+  border-left: 1px solid #ddd;
+}
+.quick-kill-content li .img-box img {
+  width: 64%;
+  display: block;
+  margin: 0 auto;
+}
+.quick-kill-content li .old-price {
+  margin: 12px 0;
+  color: #e4393c;
+}
+.quick-kill-content li .new-price {
+  margin: 12px 0;
+  color: #aaa;
+  text-decoration: line-through;
+}
+.quick-kill-content li:first-child .img-box {
+  border: none;
+}
+.jd-pd header {
+  border-bottom: 1px solid #eee;
+}
+.jd-product .p_left {
+  width: 50%;
+  float: left;
+}
+.jd-product .p_left img {
+  width: 100%;
+  vertical-align: middle;
+}
+.jd-product .p_right {
+  width: 50%;
+  float: right;
+}
+.jd-product .p_right img {
+  width: 100%;
+}
+.jd-product .b_bottom {
+  border-bottom: 1px solid #ddd;
+}
+.jd-product .b_right {
+  border-right: 1px solid #ddd;
+}
+.jd-product .b_left {
+  border-left: 1px solid #ddd;
+}
