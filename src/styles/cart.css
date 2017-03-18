@@ -209,6 +209,7 @@
 }
 
 .mask{
+    display:none;
     position:fixed;
     z-index:999999;
     top:0;bottom:0;width:100%;

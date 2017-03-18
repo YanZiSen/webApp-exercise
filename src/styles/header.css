@@ -73,14 +73,41 @@ body {
   overflow: hidden;
 }
 .slider-box {
-  width: 800%;
+  width: 1000%;
+}
+.slider-box:after{
+  display:block;
+  content:'';
+  clear:both;
 }
 .slider .slider-box li {
   float: left;
-  width: 12.5%;
+  width: 10%;
 }
 .slider .slider-box li img {
   width: 100%;
+  display:block;
+}
+.slider .dot{
+  width:260px;
+  padding:0 10px;
+  margin:-30px auto 0;
+}
+.slider .dot:after{
+  clear:both;
+  display:block;
+  content:'';
+}
+.slider .dot li{
+  float:left;
+  margin:0 10px;
+  width:10px;height:10px;
+  border:1px solid #fff;
+  border-radius:50%;
+  background-color:#333;
+}
+.slider .dot li.active{
+  background-color:#fff;
 }
 /*��Ʒ�б�*/
 .goods {

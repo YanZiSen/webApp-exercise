@@ -52,6 +52,24 @@
       background-color:blue;
       height:100px;
     }
+    .container{
+
+      background-color:#cac;
+      margin-top:-30px;
+      height:40px;
+    }
+    .container p{
+      /*box-sizing:border-box;*/
+      margin:0;padding:0;
+      height:40px;width:50px;
+      float:left;
+      background-color:yellow;
+      border:1px solid #ddd;
+    }
+    .container p:nth-child(3){
+      background-color:blue;
+      margin-top:-15px;
+    }
   </style>
 </head>
 <body>
@@ -70,5 +88,14 @@
   <div class="parent2">
     <div class="children2"></div>
   </div>
+  <hr/>
+<h3>使用margin负值后是否还占据原来的空间</h3>
+  <li><img src="src/imgs/banner_1.png" alt=""/></li>
+  <div class="container">
+    <p class='first'></p>
+    <p class='second'></p>
+    <p class='third'></p>
+  </div>
+<div class='test' style='background-color:#afa;height:40px;'></div>
 </body>
 </html>

@@ -61,14 +61,29 @@ body{
   overflow:hidden;
 }
 .slider-box{
-  width:800%;
+  width:1000%;
 }
 .slider .slider-box li{
   float:left;
-  width:12.5%;
+  width:10%;
   img{
     width:100%;
+    display:block;
   }
+}
+.slider .dot{
+  width:113px;height:6px;
+  margin:-30px auto 0;
+}
+.slider .dot li{
+  float:left;
+  margin:0 9px;
+  width:4px;height:4px;
+  border:1px solid #fff;
+  border-radius:50%;
+}
+.slider .dot li.active{
+  background-color:#fff;
 }
 
 /*商品列表*/

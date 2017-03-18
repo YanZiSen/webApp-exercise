@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>错误提取</title>
+  <link rel="stylesheet" href="src/styles/common.css"/>
+  <style>
+    body {
+      min-width: 300px;
+      max-width: 640px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    ul, li,body{
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .clearfix:after{
+      content:'';display:block;clear:both;
+    }
+    .banner-box {
+      width: 100%;
+    }
+
+    .img-box {
+      width: 200%;
+      overflow:hidden;
+    }
+
+    .img-box li {
+      float: left;
+      width: 50%;
+    }
+    .img-box li a{display:block;}
+    .img-box img {
+      width: 100%;
+    }
+
+    .dot {
+      width: 110px;
+      margin: -30px auto 0;
+      padding: 0 15px;
+      height:10px;
+    }
+
+    .dot li {
+      float:left;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      margin: 0 15px;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+<div class="banner-box">
+  <ul class="img-box clearfix">
+    <li><a href=""><img src="src/imgs/banner_1.jpg" alt=""/></a></li>
+    <li><a href=""><img src="src/imgs/banner_1.jpg" alt=""/></a></li>
+  </ul>
+  <ul class="dot clearfix">
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+</body>
+</html>

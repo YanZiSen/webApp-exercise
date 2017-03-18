@@ -12,9 +12,15 @@
 ## 易错点解析
    ####  添加的知识点
    * **width:auto与width:100%的区别 width:auto是总体宽度等于父级内容区的宽度,而100%指的是内容区的宽度等于父元素内容区的宽度**
+   * 有宽度限制的首页布局(防止过小破坏布局 过大导致图片) 整屏宽度的分类布局 无限制的流式布局
    * body默认的颜色填充为全屏
    * ::before与:before的区别 前者IE8不支持 后者支持 IE不支持伪元素的z-index
    * sans-serif 不是某个字体的名称 而是在前面的字体失效后采取的新字体
+   * touch事件
+    <pre>
+    touchstart:
+
+   </pre>
    * 浏览器可视化区域
       * innerWidth与innerHeight IE document.documentElement.clientWidth/document.documentElement.clientHeight
    * element可视化区域
@@ -92,6 +98,8 @@
    * 装饰型的小图标用伪类
    * 伪类要想显示内容必须有content属性
    * 什么时候定高 什么时候用a
+   * 轮播图的标号必须使用absolute 不占原来的空间 relative虽然可以改变位置 压住元素但是无法不占原来的位置
+   * 行内元素包裹块级元素display:block;
 
    #### 购物车问题
 
@@ -128,4 +136,5 @@
 
    #### 遮罩层
    * 利用line-height作用在p上 而不是margin-top和margin-bottom
+
 
