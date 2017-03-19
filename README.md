@@ -96,6 +96,7 @@
       *  line-height和text-align有继承性
    * 商品模块三张图片的对齐问题
       * 左边第一张下面总是多出一部分,用vertical-align解决;或者img设置为display:block;
+   * transition没有生效的原因,没有加为webkit  transform的百分比相对于自身
    * 装饰型的小图标用伪类
    * 伪类要想显示内容必须有content属性
    * 什么时候定高 什么时候用a
