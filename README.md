@@ -16,6 +16,7 @@
    * body默认的颜色填充为全屏
    * ::before与:before的区别 前者IE8不支持 后者支持 IE不支持伪元素的z-index
    * sans-serif 不是某个字体的名称 而是在前面的字体失效后采取的新字体
+   * zepto.js底层实现是querySelector
    * touch事件
     <pre>
     touchstart:
@@ -94,7 +95,7 @@
       *  **vertcla-align:middle+line-height实现**
       *  line-height和text-align有继承性
    * 商品模块三张图片的对齐问题
-      * 左边第一张下面总是多出一部分,用vertical-align解决;
+      * 左边第一张下面总是多出一部分,用vertical-align解决;或者img设置为display:block;
    * 装饰型的小图标用伪类
    * 伪类要想显示内容必须有content属性
    * 什么时候定高 什么时候用a

@@ -74,6 +74,7 @@ body {
 }
 .slider-box {
   width: 1000%;
+  transform:translateX(-10%);
 }
 .slider-box:after{
   display:block;
