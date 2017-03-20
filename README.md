@@ -135,7 +135,7 @@
    * 高分辨率下border-width的问题
      1. div width模拟
      2. :after css3 模拟 scale的缩放中心是元素中心  其实就是实心.5px的线 淘宝的动态设定viewport解决了这一点
-
+   * 封装tap是没有传入e
    #### 遮罩层
    * 利用line-height作用在p上 而不是margin-top和margin-bottom
 
