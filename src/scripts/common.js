@@ -13,7 +13,7 @@ swip.tap=function(dom,callback){
   dom.addEventListener('touchend',function(e){
    /* var endTime=new Date();*/
     if(Date.now()-time<150&&!isMove){
-      callback&&callback(e);
+      callback&&callback.call(dom,e);
     }
     isMove=false;
     time=0;

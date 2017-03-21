@@ -121,6 +121,9 @@
       * img没有用a包起来 用整个a包起li更是脱离了生产环境
    * absolute与float的区别 float可以不占空间但是要有顺序上的考虑
    * 设置margin-bottom不会落在after上,作用在它之后
+   * 使用--i还是i--在循环中的错误 --i返回操作后的值 i--返回操作钱的值
+   * 封装parent的传入字符串的问题 一定要是选择器
+   * display为none是尺寸计算计算总是为零
 
    #### 分类页的问题
    * 顶边栏的两个按钮没有用a span的滥用并且多一个div
@@ -135,7 +138,7 @@
    * 高分辨率下border-width的问题
      1. div width模拟
      2. :after css3 模拟 scale的缩放中心是元素中心  其实就是实心.5px的线 淘宝的动态设定viewport解决了这一点
-   * 封装tap是没有传入e
+   * 封装tap是没有传入e 导致闪屏
    #### 遮罩层
    * 利用line-height作用在p上 而不是margin-top和margin-bottom
 
